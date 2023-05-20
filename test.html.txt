@@ -1,13 +1,12 @@
-<!DOCTYOE html>
 <html>
 <head>
-<meta <meta name="viewport" content="width=device-width, initial-scale=1">
+<h1>login page </h1>
 </head>
 <body>
 
 <h2>Login Form</h2>
 
-<form action="/action_page.php" method="post">
+<form>
 <div class="container">
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
@@ -24,10 +23,11 @@
   <div class="container" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
     <span class="psw">Forgot <a href="#">password?</a></span>
+<span class="psw">Forgot <a href="#">confirm Password?</a></span>
+<span class="psw">Forgot <a href="#">reConfirm password?</a></span>
+
   </div>
 </form>
 
-</body>
-</html>
 </body>
 </html>
